@@ -1,17 +1,14 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+title: Newton Biopharma
 layout: home
-layout: home
-description: A description
+description: Newton Biopharma is a consultancy based in New Jersey
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
 ---
 
-# This is a title
+# Newton Biopharma
 
 This is some text
 
