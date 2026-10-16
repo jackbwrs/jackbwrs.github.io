@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="appleShade" gradientUnits="objectBoundingBox" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#ff6b5e"/>
+      <stop offset="0.45" stop-color="#e02b20"/>
+      <stop offset="1" stop-color="#8f1410"/>
+    </radialGradient>
+    <linearGradient id="leafShade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7bd05a"/>
+      <stop offset="1" stop-color="#2f7d2a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- white background so it shows on any viewer -->
+  <rect width="400" height="400" fill="#ffffff"/>
+
+  <!-- ground shadow -->
+  <ellipse cx="200" cy="362" rx="95" ry="14" fill="#000000" opacity="0.15"/>
+
+  <!-- apple body: solid red base (fallback), then gradient on top -->
+  <path id="appleShape" d="M200 120 C170 92 100 98 78 168 C58 232 98 330 150 350 C172 358 188 346 200 346 C212 346 228 358 250 350 C302 330 342 232 322 168 C300 98 230 92 200 120 Z"
+        fill="#e02b20"/>
+  <path d="M200 120 C170 92 100 98 78 168 C58 232 98 330 150 350 C172 358 188 346 200 346 C212 346 228 358 250 350 C302 330 342 232 322 168 C300 98 230 92 200 120 Z"
+        fill="url(#appleShade)"/>
+
+  <!-- top dip -->
+  <path d="M200 120 C196 130 196 140 200 150 C204 140 204 130 200 120 Z" fill="#7a0f0b" opacity="0.5"/>
+
+  <!-- highlight -->
+  <path d="M112 175 C118 148 140 134 160 134 C142 148 132 166 130 192 C128 214 134 232 142 246 C120 232 106 204 112 175 Z"
+        fill="#ffffff" opacity="0.35"/>
+
+  <!-- stem -->
+  <path d="M200 124 C198 98 204 76 220 56" fill="none" stroke="#5b3a1e" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- leaf -->
+  <path d="M214 82 C236 52 278 46 300 62 C284 94 244 104 214 82 Z" fill="#4f9f3a"/>
+  <path d="M214 82 C236 52 278 46 300 62 C284 94 244 104 214 82 Z" fill="url(#leafShade)"/>
+  <path d="M218 82 C242 74 266 68 292 62" fill="none" stroke="#2a6a25" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+</svg>
