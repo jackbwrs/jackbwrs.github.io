@@ -1,7 +1,7 @@
 ---
 title: "Jack Bowers"
 image: "images/team/jack.jpg"
-jobtitle: "Founder"
+jobtitle: "Principal"
 linkedinurl: "https://www.linkedin.com/"
 promoted: true
 weight: 2
