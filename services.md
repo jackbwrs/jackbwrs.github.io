@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: services
 title: Services
 permalink: /services/
 ---
